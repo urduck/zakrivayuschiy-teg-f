@@ -285,7 +285,7 @@
   align-self: center;
   width: 22px;
   height: 21px;
-  fill: var(--button-text-color);
+  color: var(--button-text-color);
   mix-blend-mode: difference;
 }
 
