@@ -133,7 +133,7 @@
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  line-height: 14px;
+  line-height: 1em;
   text-transform: uppercase;
   text-shadow: -1px 0 var(--stroke-color), 0 1px var(--stroke-color),
     1px 0 var(--stroke-color), 0 -1px var(--stroke-color);
@@ -158,7 +158,7 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   font-style: normal;
-  line-height: 22px;
+  line-height: 1.2102272245619032em;
   font-variation-settings: "slnt" 0, "wght" var(--title-weight);
 }
 
@@ -175,7 +175,7 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   font-style: normal;
-  line-height: 117%;
+  line-height: 1.17em;
 }
 
 /* Контейнер кнопок */
@@ -220,7 +220,7 @@
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  line-height: 90%;
+  line-height: 0.9em;
   mix-blend-mode: difference;
 }
 
@@ -247,7 +247,7 @@
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
-  line-height: 150%;
+  line-height: 1em;
   text-transform: uppercase;
 }
 
