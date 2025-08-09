@@ -195,6 +195,9 @@
   border: solid 2px transparent;
   background: var(--card-back-color);
   transition: border 0.3s ease;
+  min-height: 38px;
+  min-width: 40px;
+  padding: 1.5px 0;
 }
 
 .page__button {
