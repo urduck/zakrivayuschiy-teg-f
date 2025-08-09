@@ -333,7 +333,7 @@
   }
 }
 
-/* Mobile версия (375px и меньше) */
+/* Mobile версия (375px) */
 @media (max-width: 375px) {
   .background-container {
     width: 375px;
@@ -344,6 +344,14 @@
   .site-header {
     margin-bottom: 96px;
   }
+  
+  .post-image {
+    width: 371px !important;
+    height: 371px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  
   .save-button {
     flex-direction: column;
   }
