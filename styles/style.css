@@ -118,8 +118,9 @@
 .post-image {
   display: block;
   width: calc(var(--block-inline-size) - 4px);
+  height: 696px;
   object-fit: cover;
-  object-position: center;
+  object-position: right center;
 }
 
 /* Водяной знак */
@@ -292,34 +293,7 @@
   height: 39px;
 }
 
-/* Фильтры для изображений */
-.saturate-bright {
-  filter: saturate(300%) brightness(150%);
-}
 
-.grayscale {
-  filter: grayscale(100%);
-}
-
-.contrast {
-  filter: contrast(150%) brightness(40%);
-}
-
-.invert {
-  filter: invert(10%);
-}
-
-.blur-contrast {
-  filter: blur(5px) contrast(150%);
-}
-
-.sepia {
-  filter: sepia(1.7);
-}
-
-.hue-rotate {
-  filter: hue-rotate(0.7turn);
-}
 
 /* Элементы анимации */
 .sparks {
