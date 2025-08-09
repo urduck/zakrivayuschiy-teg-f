@@ -1,1 +1,42 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/* Глобальные CSS-переменные для проекта */
+
+:root {
+  /* Основные шрифты */
+  --main-font: "Inter";
+  --accent-font: "Press Start 2P";
+  
+  /* Настройки веса шрифтов */
+  --title-weight: 715;
+  --text-weight: 410;
+  
+  /* Фоновое изображение страницы */
+  --background-page: url(../images/background-pattern.png),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0%,
+      #1a1a1a 100%
+    );
+  
+  /* Размеры блоков */
+  --block-inline-size: clamp(
+    min(100%, 23.438rem),
+    16.285rem + 30.52vw,
+    43.75rem
+  );
+  
+  /* Цветовая схема */
+  --stroke-color: #fff;
+  --button-text-color: #fff;
+  --page-text-color: #000;
+  --header-back-color: #fff;
+  --card-back-color: #fff;
+  --border-color: #000;
+  --backdrop-color: rgb(0 0 0/ 0.75);
+  
+  /* Цвета для анимации сердца */
+  --main-body-heart-color: transparent;
+  --core-heart-color: transparent;
+  --contour-color: #000;
+  --hover-heart-color: #000;
+  --animation-fill-color: red;
+}
