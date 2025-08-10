@@ -9,9 +9,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: var(--background-page);
+  background-repeat: repeat, repeat, no-repeat;
+  background-position: center;
+  background-size: 4px 4px, 4px 4px, cover;
+  background-attachment: fixed;
 }
 
-/* Фоновый контейнер */
+/* Фоновый контейнер - теперь пустой, так как фон применяется к body */
 .background-container {
   position: absolute;
   top: 0;
@@ -19,10 +24,6 @@
   transform: translateX(-50%);
   width: 1440px;
   height: 960px;
-  background-image: var(--background-page);
-  background-repeat: repeat, no-repeat;
-  background-position: center;
-  background-size: 4px 4px, cover;
   z-index: -1;
 }
 
@@ -320,8 +321,8 @@
 
 /* Desktop версия (1440px и больше) */
 @media (min-width: 1440px) {
-  .background-container {
-    background-size: 4px 4px, 1440px 960px;
+  .page {
+    background-size: 4px 4px, 4px 4px, 1440px 960px;
   }
 }
 
@@ -330,7 +331,9 @@
   .background-container {
     width: 100%;
     max-width: 1440px;
-    background-size: 4px 4px, 100% 960px;
+  }
+  .page {
+    background-size: 4px 4px, 4px 4px, 100% 960px;
   }
 }
 
@@ -339,7 +342,9 @@
   .background-container {
     width: 375px;
     height: 667px;
-    background-size: 4px 4px, 375px 667px;
+  }
+  .page {
+    background-size: 4px 4px, 4px 4px, 375px 667px;
   }
   
   .site-header {

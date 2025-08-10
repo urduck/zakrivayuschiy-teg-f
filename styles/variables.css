@@ -10,12 +10,10 @@
   --text-weight: 410;
   
   /* Фоновое изображение страницы */
-  --background-page: url(../images/background-pattern.png),
-    linear-gradient(
-      to bottom,
-      #e7e7e7 0%,
-      #1a1a1a 100%
-    );
+  --background-page: 
+    repeating-linear-gradient(90deg, transparent 0, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+    repeating-linear-gradient(0deg, transparent 0, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   
   /* Размеры блоков */
   --block-inline-size: clamp(
