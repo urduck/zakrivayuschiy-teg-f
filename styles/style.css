@@ -29,8 +29,8 @@
   margin-bottom: 94px;
   border: 2px solid var(--border-color);
   border-radius: 0px;
-  padding-inline: clamp(1rem, -1.344rem + 10vw, 7.656rem);
-  padding-block: clamp(7.625rem, 7.449rem + 0.75vw, 8.125rem);
+  padding-inline: clamp(1rem, -1.34rem + 10vw, 7.65rem);
+  padding-block: clamp(7.63rem, 7.45rem + 0.75vw, 8.13rem);
   background-color: var(--header-back-color);
   inline-size: var(--block-inline-size);
   position: relative;
@@ -50,7 +50,7 @@
   color: var(--page-text-color);
   font-family: var(--accent-font), fantasy;
   font-weight: 400;
-  font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+  font-size: clamp(3.06rem, 2.71rem + 1.5vw, 4.06rem);
   font-style: normal;
   line-height: 100%;
   text-transform: uppercase;
@@ -60,7 +60,7 @@
   color: var(--page-text-color);
   font-family: var(--accent-font), fantasy;
   font-weight: 400;
-  font-size: clamp(0.875rem, 0.677rem + 0.85vw, 1.438rem);
+  font-size: clamp(0.88rem, 0.68rem + 0.85vw, 1.44rem);
   font-style: normal;
   line-height: 100%;
   text-transform: uppercase;
@@ -151,7 +151,7 @@
   font-family: var(--main-font), sans-serif;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.2102272245619032em;
+  line-height: 1.2em;
   font-variation-settings: "slnt" 0, "wght" var(--title-weight);
 }
 
@@ -256,7 +256,7 @@
   column-gap: 20px;
   border: 2px solid var(--border-color);
   padding: 28px;
-  inline-size: clamp(21.313rem, 21.048rem + 1.13vw, 22.063rem);
+  inline-size: clamp(21.31rem, 21.05rem + 1.13vw, 22.06rem);
 }
 
 .no-discket[open]::backdrop {

@@ -11,9 +11,10 @@
   
   /* Фоновое изображение страницы */
   --background-page: 
-    repeating-linear-gradient(90deg, transparent 0, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
-    repeating-linear-gradient(0deg, transparent 0, transparent 2px, #d3d3d3 2px, #d3d3d3 4px),
-    linear-gradient(to bottom, #1a1a1a 0%, #1a1a1a 100%);
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+
   
   /* Размеры блоков */
   --block-inline-size: clamp(
