@@ -351,11 +351,11 @@
     margin-bottom: 96px;
   }
   
-  .post-image {
-    width: 371px !important;
-    height: 371px !important;
-    object-fit: cover !important;
-    object-position: center !important;
+  .post-item .image-wrapper .post-image {
+    width: 371px;
+    height: 371px;
+    object-fit: cover;
+    object-position: center;
   }
   
   .save-button {
